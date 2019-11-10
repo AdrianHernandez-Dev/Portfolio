@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 20px;
+  line-height: 35px;
+  font-family: 'Quattrocento', serif;
+}
+
+h1 {
+  font-size:48px;
+  line-height: 48px;
+}
+
+h1, h2, nav {
+  font-family: 'Oswald', sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  font-size: 16px;
+  background-color: white;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  padding: 15px;
+}
+
+header {
+  margin: 100px;
+  padding-top: 50px;
+}
+
+header, footer, nav, section {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  min-height: 200px;
+  padding: 3% 0;
+}
+
+.bio-pic {
+  border-radius:50%;
+  padding: 20px;
+
+}
+a {
+  padding: 15px;
+  text-decoration: none;
+  max-height: 50px;;
+}
+
+.section-projects, .section-bio {
+  display: inline-block;
+  margin-left: 100px;
+  margin-right:100px;
+}
+
+.section-bio {
+  padding-top: 0;
+}
+
+
