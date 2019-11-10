@@ -14,7 +14,7 @@ p {
 
 h1 {
   font-size:48px;
-  line-height: 48px;
+  line-height: 80px;
 }
 
 h1, h2, nav {
@@ -76,4 +76,56 @@ a {
   padding-top: 0;
 }
 
+.section-projects {
+  position: relative;
+}
 
+.section-contact {
+  display: block;
+  text-align: center;
+}
+
+.quiz {
+  position: absolute;
+  left: 65%;
+  bottom: 60px;
+}
+
+@media screen and (max-width: 680px) {
+   .quiz{
+    display: none;
+  }
+  header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .javascript, .jquery, .css, .html, .linkedin, .email, .github {
+    width: 35px;
+    height: 35px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  h1 {
+    font-size:25px;
+    line-height: 30px;
+  }
+  section {
+    padding: 0% 0;
+  }
+  .section-contact {
+    display: block;
+    text-align: center;
+  }
+
+} 
+
+@media screen and (max-width: 1035px) {
+  .quiz {
+    display: none;
+  }
+}

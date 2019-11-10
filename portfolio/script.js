@@ -3,8 +3,10 @@ console.log('hello')
 function slideBio () {
   $('.bio').on('click', function(){
     console.log("checked")
-    $(this).find('.section-bio').slidetoggle();
-  })
-}
+      $('html, body').animate({
+        scrollTop: $(this).offset().top
+      }, 800)
+    });
+  }
 
 slideBio();
