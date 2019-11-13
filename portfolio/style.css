@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 20px;
+  line-height: 35px;
+  font-family: 'Quattrocento', serif;
+}
+
+h1 {
+  font-size:48px;
+  line-height: 80px;
+}
+
+h1, h2, nav {
+  font-family: 'Oswald', sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  font-size: 16px;
+  background-color: white;
+  font-weight: bold;
+  height:50px;
+
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  cursor: pointer;
+}
+
+header {
+  margin: 100px;
+  padding-top: 80px;
+}
+
+header, footer, nav, section {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  min-height: 200px;
+  padding: 5% 0;
+}
+
+.bio-pic {
+  border-radius:50%;
+  padding: 20px;
+
+}
+a {
+  padding: 15px;
+  text-decoration: none;
+  max-height: 50px;;
+}
+
+.section-projects, .section-bio {
+  display: inline-block;
+  margin-left: 100px;
+  margin-right:100px;
+}
+
+.section-bio {
+  padding-top: 27px;
+}
+
+.section-projects {
+  position: relative;
+}
+
+.section-contact {
+  display: block;
+  text-align: center;
+}
+
+.quiz {
+  position: absolute;
+  left: 65%;
+  bottom: 60px;
+}
+
+@media screen and (max-width: 680px) {
+   .quiz{
+    display: none;
+  }
+  header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .javascript, .jquery, .css, .html, .linkedin, .email, .github {
+    width: 35px;
+    height: 35px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  h1 {
+    font-size:25px;
+    line-height: 30px;
+  }
+  section {
+    padding: 0% 0;
+  }
+  .section-contact {
+    display: block;
+    text-align: center;
+  }
+
+  li {
+    padding: 15px;
+    font-size: 15px;
+  }
+
+} 
+
+@media screen and (max-width: 1035px) {
+  .quiz {
+    display: none;
+  }
+}
