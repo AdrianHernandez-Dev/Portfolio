@@ -167,14 +167,14 @@ header {
     font-size: 25px;
   }
 
+  .quiz {
+    display: flex;
+    float: right;
+  }
+
 }
 
   @media screen and (min-width: 1035px) {
-    .quiz {
-      position: absolute;
-      left: 65%;
-      bottom: 60px;
-    }
 
     header {
       margin: 100px;
@@ -189,7 +189,9 @@ header {
       padding-right: 50px;
     }
 
-    .quiz {
-      display: flex;
+    .section-bio, .section-projects {
+      width:100%;
     }
+
+
   }
