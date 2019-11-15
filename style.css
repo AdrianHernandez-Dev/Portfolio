@@ -32,6 +32,10 @@ ul {
   height: 35px;
 }
 
+.css{
+  width: 25px;
+}
+
 li {
   padding: 10px;
   font-size: 15px;
