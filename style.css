@@ -18,6 +18,8 @@ section {
 .bio-pic {
   border-radius:50%;
   padding: 20px;
+  height:225px; 
+  width:225px;
 }
 
 ul {
@@ -174,6 +176,8 @@ header {
   .quiz {
     display: flex;
     float: right;
+    height: 250px;
+    width: 350px;
   }
 
 }
