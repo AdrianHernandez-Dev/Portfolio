@@ -18,7 +18,6 @@ section {
 .bio-pic {
   border-radius:50%;
   padding: 20px;
-  height:225px; 
   width:225px;
 }
 
@@ -96,7 +95,6 @@ section {
 .section-contact {
   display: block;
   text-align: center;
-  
 }
 
 a {
